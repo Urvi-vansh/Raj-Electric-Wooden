@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <meta name="theme-color" content="#1976D2" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Raj Electric" />
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Raj Electric Wooden | Electrical Goods Wholesaler & Retailer | Amreli, Gujarat</title>
+    <meta name="title" content="Raj Electric Wooden | Electrical Goods Wholesaler & Retailer | Amreli, Gujarat" />
+    <meta name="description" content="Raj Electric Wooden (Raj Electric &amp; Wooden Works) in Batar Wadi, Amreli, Gujarat. Electrical goods wholesaler and retailer offering wires, cables, LED lights, modular switches, wooden switchboards, and electrical accessories. Call +91 98250 94290." />
+    <meta name="keywords" content="Electrical shop in Amreli, Electrical goods wholesaler in Amreli, Electrical wires and cables in Amreli, Electrical accessories in Amreli, Bulk electrical supplies in Amreli, wooden switchboards Amreli, modular switches Amreli, LED lights Amreli" />
+    <meta name="author" content="Raj Electric Wooden" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="business.business" />
+    <meta property="og:title" content="Raj Electric Wooden | Electrical Goods Wholesaler & Retailer in Amreli" />
+    <meta property="og:description" content="Explore electrical supplies, wires, cables, lighting, electrical boards, and accessories for residential and commercial needs in Amreli, Gujarat." />
+    <meta property="og:image" content="/images/hero-electrical.jpg" />
+
+    <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- LocalBusiness Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WholesaleStore",
+      "name": "Raj Electric Wooden",
+      "alternateName": ["Raj Electric & Wooden Works", "રાજ ઇલેક્ટ્રીક વુડન"],
+      "image": "https://rajelectricwooden.com/images/real/shop-signboard-havells.png",
+      "telephone": "+91 98790 94290",
+      "url": "https://rajelectricwooden.com",
+      "priceRange": "₹₹",
+      "currenciesAccepted": "INR",
+      "paymentAccepted": "Cash, UPI, Bank Transfer",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sheri No 4, Sardar Nagar, Chakkargadh Road (Batar Wadi Area)",
+        "addressLocality": "Amreli",
+        "addressRegion": "Gujarat",
+        "postalCode": "365601",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 21.6032,
+        "longitude": 71.2223
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "09:00",
+          "closes": "12:30"
+        }
+      ],
+      "areaServed": [
+        "Amreli",
+        "Saurashtra",
+        "Gujarat"
+      ],
+      "description": "Electrical goods wholesaler and retailer supplying copper wires, cables, LED lighting, modular switches, wooden switch boards, and installation accessories in Batar Wadi, Amreli."
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then((reg) => {
+            console.log('Raj Electric PWA ServiceWorker registered:', reg.scope);
+          }).catch((err) => {
+            console.warn('Raj Electric ServiceWorker registration failed:', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

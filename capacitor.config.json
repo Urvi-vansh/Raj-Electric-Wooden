@@ -1,0 +1,8 @@
+{
+  "appId": "com.rajelectric.app",
+  "appName": "Raj Electric Wooden",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

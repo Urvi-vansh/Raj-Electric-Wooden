@@ -1,0 +1,58 @@
+{
+  "name": "Raj Electric Wooden - Amreli",
+  "short_name": "Raj Electric",
+  "description": "Wholesale & retail electrical goods, wires, cables, modular switches, and handcrafted wooden switchboards in Amreli, Gujarat.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1976D2",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "shopping",
+    "business",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Product Catalogue",
+      "short_name": "Products",
+      "url": "/products",
+      "description": "Browse wires, switches, lighting & accessories"
+    },
+    {
+      "name": "Wholesale Enquiry",
+      "short_name": "Wholesale",
+      "url": "/wholesale-enquiry",
+      "description": "Request bulk quote for projects"
+    },
+    {
+      "name": "Shop Contact & Location",
+      "short_name": "Contact",
+      "url": "/contact",
+      "description": "Batar Wadi, Amreli location and phone"
+    }
+  ]
+}

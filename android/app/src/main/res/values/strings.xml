@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Raj Electric Wooden</string>
+    <string name="title_activity_main">Raj Electric Wooden</string>
+    <string name="package_name">com.rajelectric.app</string>
+    <string name="custom_url_scheme">com.rajelectric.app</string>
+</resources>
