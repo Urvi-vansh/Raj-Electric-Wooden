@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, MessageCircle, Clock, Zap, ExternalLink, ChevronRight } from 'lucide-react';
+import { MapPin, Phone, MessageCircle, Clock, ExternalLink, ChevronRight } from 'lucide-react';
 import { BUSINESS_INFO } from '../config/businessInfo';
 import { getGeneralEnquiryUrl } from '../utils/whatsapp';
 import { useLanguage } from '../context/LanguageContext';
@@ -16,9 +16,13 @@ export default function Footer() {
         <div className="footer-grid">
           {/* Column 1: Business Overview */}
           <div className="footer-col">
-            <div className="brand-link" style={{ marginBottom: '1.25rem' }}>
-              <div className="brand-logo-icon" style={{ width: 40, height: 40 }}>
-                <Zap size={22} fill="currentColor" />
+            <Link to="/" className="brand-link" style={{ marginBottom: '1.25rem' }}>
+              <div className="brand-logo-box" style={{ width: 42, height: 42 }} aria-label="Raj Electric & Wooden Logo">
+                <img
+                  src="/images/logo-icon.png"
+                  alt="Raj Electric & Wooden REW Logo"
+                  className="brand-logo-img"
+                />
               </div>
               <div className="brand-text">
                 <span className="brand-name" style={{ fontSize: '1.2rem' }}>
@@ -26,7 +30,7 @@ export default function Footer() {
                 </span>
                 <span className="brand-locality">{isGujarati ? "અમરેલી, ગુજરાત" : "Amreli, Gujarat"}</span>
               </div>
-            </div>
+            </Link>
             <p className="footer-desc">
               {t('footer.desc', 'Your trusted partner for electrical goods wholesale and retail in Amreli. Supplying building wires, LED fixtures, modular switches, handcrafted wooden switchboards, and electrical accessories.')}
             </p>

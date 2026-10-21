@@ -366,6 +366,35 @@ a:hover {
   flex-shrink: 0;
 }
 
+.brand-logo-box {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: 1.5px solid #d0e3ff;
+  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  flex-shrink: 0;
+  overflow: hidden;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
+}
+
+.brand-link:hover .brand-logo-box {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 6px 16px rgba(25, 118, 210, 0.22);
+  border-color: var(--color-primary-blue);
+}
+
+.brand-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
 .brand-text {
   display: flex;
   flex-direction: column;

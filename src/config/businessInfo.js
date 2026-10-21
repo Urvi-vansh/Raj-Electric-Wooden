@@ -2,8 +2,8 @@
 // All verified shop details, contact channels, and operating hours
 
 export const BUSINESS_INFO = {
-  name: "Raj Electric Wooden",
-  alternateName: "Raj Electric & Wooden Works",
+  name: "Raj Electric & Wooden",
+  alternateName: "Raj Electric Wooden",
   gujaratiName: "રાજ ઇલેક્ટ્રીક વુડન",
   ownerName: "Manojbhai",
   gujaratiOwnerName: "મનોજભાઈ",

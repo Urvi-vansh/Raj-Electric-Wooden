@@ -19,8 +19,12 @@ export default function Header() {
         <div className="container header-inner">
           {/* Brand Logo & Name */}
           <Link to="/" className="brand-link" onClick={closeMenu}>
-            <div className="brand-logo-icon" aria-label="Electrical Bolt Logo">
-              <Zap size={24} fill="currentColor" />
+            <div className="brand-logo-box" aria-label="Raj Electric & Wooden Logo">
+              <img
+                src="/images/logo-icon.png"
+                alt="Raj Electric & Wooden REW Logo"
+                className="brand-logo-img"
+              />
             </div>
             <div className="brand-text">
               <span className="brand-name">{isGujarati ? BUSINESS_INFO.gujaratiName : BUSINESS_INFO.name}</span>
@@ -91,8 +95,12 @@ export default function Header() {
           <aside className="mobile-nav-drawer" aria-label="Mobile Navigation">
             <div className="mobile-drawer-header">
               <div className="brand-link">
-                <div className="brand-logo-icon" style={{ width: 36, height: 36 }}>
-                  <Zap size={20} fill="currentColor" />
+                <div className="brand-logo-box" style={{ width: 38, height: 38 }}>
+                  <img
+                    src="/images/logo-icon.png"
+                    alt="Raj Electric & Wooden REW Logo"
+                    className="brand-logo-img"
+                  />
                 </div>
                 <div className="brand-text">
                   <span className="brand-name" style={{ fontSize: '1.1rem' }}>
